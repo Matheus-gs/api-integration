@@ -1,0 +1,7 @@
+CREATE TABLE user(
+    userId INTEGER UNSIGNED NOT NULL AUTO_INCREMENT,
+    userName VARCHAR(255) NOT NULL,
+    userPass VARCHAR(255) NOT NULL,
+
+    PRIMARY KEY (userId)
+);
